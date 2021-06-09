@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenitore, .contenitore_interno, .navigazione {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore{
+    background-image: url(background.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 1000px;    
+}
+
+.contenitore_interno{
+    background-color: rgba(32, 34, 32, 0.637);
+    width: 60%;
+    height: 80%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intestazione{
+    margin: 10px;
+    text-align: center;
+}
+.logo{
+   width: 40%;
+}
+.titolo{
+    color: #00dd00;
+    font-family: 'Inter', sans-serif;
+}
+
+.navigazione{
+    background-color:#00dd00;
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+    margin-top: 0;
+    text-align: center;
+
+}
+.navigazione > button{
+     margin: 5px;
+     font-family: 'Inter', sans-serif;
+}
+
+.principale{
+    margin-left: 50px;
+    margin-top: 35px;
+    align-self: baseline;
+}
+
+.scooter{
+    height: auto;
+    width: auto;
+    margin: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.barra_carica{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.barra1{
+    width: 900px;
+    background-color: green;
+}
+.barra2{
+    width: 500px;
+    background-color:orange;
+}
+
+.barra3{
+    width: 200px;
+    background-color: red;
+}
+
+span{
+    font-size: 25px;
+    font-weight: bold;
+}
